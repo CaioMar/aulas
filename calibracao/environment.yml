@@ -1,0 +1,17 @@
+name: calibration
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - matplotlib=3.1
+  - kaggle
+  - ipython=7.29
+  - xgboost=1.4
+  - catboost=0.26
+  - scikit-learn=0.20
+  - pandas=0.25
+  - pip=20.0
+  - hyperopt=0.2
+  - category_encoders=2.3
